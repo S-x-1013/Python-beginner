@@ -1,0 +1,10 @@
+set1=set(map(int,input("请输入集合1元素，逗号隔开：").split("，")))
+set2=set(map(int,input("请输入集合2元素，逗号隔开：").split("，")))
+inter=set1&set2
+union=set1|set2
+diff=set1-set2
+print(f"集合1：{set1}")
+print(f"集合2：{set2}")
+print(f"交集：{inter}")
+print(f"并集：{union}")
+print(f"差集(set1-set2)：{diff}")
