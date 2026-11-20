@@ -1,0 +1,5 @@
+lstA=list(map(int,input("输入列表A，空格分隔：").split()))
+lstB=list(map(int,input("输入列表B，空格分隔：").split()))
+n=min(len(lstA),len(lstB))
+result=dict(zip(lstA[:n],lstB[:n]))
+print(result)
